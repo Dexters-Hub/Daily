@@ -1,0 +1,1 @@
+Created with a view to connecting people to information, this list contains a collection of all the fantastic resources I've collected over the course of my competitive programming career. I hope you'll find it useful :)
