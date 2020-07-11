@@ -14,13 +14,13 @@ def text(n):
         if len(word) == n:
             return word
     except:
-        print("Error")
+        print("UnboundLocalError")
 
 def fizzbuzz(num, keymap):
     output = ''
-    for factor in keymap.keys():
-        if(num % factor == 0):
-            output += keymap[factor]
+    for _ in keymap.keys():
+        if(num % _ == 0):
+            output += keymap[_]
     if(not output):
         output = num
     return output
